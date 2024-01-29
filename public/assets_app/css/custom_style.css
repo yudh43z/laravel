@@ -1,0 +1,72 @@
+.sidebar-dark .nav-sidebar > .nav-item-open > .nav-link:not(.disabled), .sidebar-dark .nav-sidebar > .nav-item > .nav-link.active, .sidebar-light .card[class*="bg-"]:not(.bg-light):not(.bg-white):not(.bg-transparent) .nav-sidebar > .nav-item-open > .nav-link:not(.disabled), .sidebar-light .card[class*="bg-"]:not(.bg-light):not(.bg-white):not(.bg-transparent) .nav-sidebar > .nav-item > .nav-link.active
+{
+    background-color: #2196f3;
+}
+.content-wrapper
+{
+    min-height: 720px;
+}
+.sidebar-dark,
+.navbar-dark
+{
+    background-color: #2e3e4e;
+    border-bottom: none;
+}
+.sidebar-xs .sidebar-main.sidebar-dark .nav-sidebar > .nav-item-submenu > .nav-group-sub {
+    background-color: #2e3e4e;
+}
+
+.datatable-responsive tbody td {
+    max-width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 170px;    
+}
+
+.bg-yellow {
+    background-color: #fcc100;
+}
+.text-yellow {
+    color: #fcc100;
+}
+.btn-yellow,
+.btn-yellow:hover {
+    background-color: #fcc100;
+    color: #fff;
+}
+
+.h-240 { height: 240px }
+.file-preview .close { top: -30px; }
+
+/** file upload preview */
+.close.fileinput-remove,
+.kv-file-zoom,
+.file-upload-indicator { display: none; }
+.file-preview-frame {
+    display: block;
+    margin: auto;
+}
+.blog-horizontal .card-img-actions {
+    max-height: 110px;
+    height: 110px;    
+}
+.card-img-actions img {
+    height: 100%;
+    object-fit: cover;    
+}
+
+.img-show-post {
+    height: 260px;
+    max-height: 260px;
+    object-fit: cover;
+}
+
+.img-show-ebook {
+    height: 200px !important;
+    max-height: 260px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.mw-30 { max-width: 30px !important; }
